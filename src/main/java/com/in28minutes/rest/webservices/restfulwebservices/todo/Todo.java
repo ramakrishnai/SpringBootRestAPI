@@ -11,6 +11,7 @@ public class Todo {
 	private boolean isDone;
 	
 	
+	//default constructor
 	protected Todo() { }
 	
 	public Todo(long id, String userName, String description, Date targetDate, boolean isDone) {
