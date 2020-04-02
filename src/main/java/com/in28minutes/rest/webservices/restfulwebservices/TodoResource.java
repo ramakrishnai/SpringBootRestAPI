@@ -40,7 +40,7 @@ public class TodoResource {
 	}
 	
 	
-	//http://localhost:8080//users/test123/todos/1
+	//URL: http://localhost:8080//users/test123/todos/1
 	@DeleteMapping("/users/{userName}/todos/{id}")
 	public ResponseEntity<Void> deleteTodo(@PathVariable String userName, @PathVariable long id) {
 	 
